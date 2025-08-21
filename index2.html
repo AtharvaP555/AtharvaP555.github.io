@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atharva Puranik — Portfolio</title>
+
+    <!-- Devicon icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="nav-container">
+        <a href="#home" class="logo">Atharva Puranik</a>
+        <button class="hamburger" id="hamburger">☰</button>
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#education" class="nav-link">Education</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+      <div class="container">
+        <img
+          src="assets/images/pfp.jpg"
+          alt="Profile Photo"
+          class="profile-img"
+        />
+        <div class="home-content">
+          <h1>Atharva Puranik</h1>
+          <div class="typing-text" id="typing-text"></div>
+          <p>
+            Third-year IT student (AI/ML honours). Aspiring game developer — I
+            build small web games and full-stack apps while learning graphics
+            and engine basics.
+          </p>
+          <div class="home-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a
+              href="assets/resume.pdf"
+              class="btn btn-secondary"
+              target="_blank"
+              rel="noopener"
+              >Download Resume</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <p>
+            My name is Atharva Puranik, and I'm a third-year B.Tech student in
+            Information Technology with an Honours in Artificial Intelligence
+            and Machine Learning.Growing up in Mumbai, I developed a strong
+            interest in mathematics and logical thinking, which gradually
+            evolved into a passion for technology — particularly in areas like
+            machine learning and game development.
+          </p>
+          <p>
+            I'm confident in Python and have developed a web application using
+            Django. I've completed Coursera's Supervised Learning and Advanced
+            Learning Algorithms courses, and have working knowledge of C, HTML,
+            CSS, SQL, and Java. As part of a collaborative project called AI
+            Policing under the Mumbai Police, the initiative was guided by our
+            college's IT department and mentored throughout by our Head of
+            Department.
+          </p>
+          <p>
+            I contributed to data pre-processing for a system designed to
+            predict crime hotspots, which recently achieved an accuracy of 82%.
+            Outside academics, I enjoy solving coding problems on LeetCode,
+            exploring new tech stacks, and staying active through weightlifting
+            and cricket.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+
+        <div class="skills-category">
+          <h3>Languages</h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <i class="devicon-javascript-plain skill-icon"></i>
+              <p>JavaScript</p>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-python-plain skill-icon"></i>
+              <p>Python</p>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-java-plain skill-icon"></i>
+              <p>Java</p>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-c-plain skill-icon"></i>
+              <p>C</p>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-html5-plain skill-icon"></i>
+              <p>HTML</p>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-css3-plain skill-icon"></i>
+              <p>CSS</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <h3>Frameworks</h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <i class="devicon-react-original skill-icon"></i>
+              <p>React</p>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-nodejs-plain skill-icon"></i>
+              <p>Node.js</p>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-express-original skill-icon"></i>
+              <p>Express</p>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-django-plain skill-icon"></i>
+              <p>Django</p>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-spring-plain skill-icon"></i>
+              <p>Springboot</p>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-bootstrap-plain skill-icon"></i>
+              <p>Bootstrap</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <h3>Tools</h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <i class="devicon-git-plain skill-icon"></i>
+              <p>Git</p>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-vscode-plain skill-icon"></i>
+              <p>VS Code</p>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-figma-plain skill-icon"></i>
+              <p>Figma</p>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-docker-plain skill-icon"></i>
+              <p>Docker</p>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-mongodb-plain skill-icon"></i>
+              <p>MongoDB</p>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-linux-plain skill-icon"></i>
+              <p>Linux</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="devicon-react-original"></i>
+            </div>
+            <div class="project-content">
+              <h3>SkillSwap</h3>
+              <p>
+                A full-stack web platform that enables users to create, manage,
+                and exchange skill offers. Features include authentication,
+                personalized dashboards, and CRUD operations for skill postings.
+              </p>
+              <a
+                href="https://github.com/AtharvaP555/SkillSwap"
+                target="_blank"
+                rel="noopener"
+                class="project-btn"
+                >View Code</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="devicon-django-plain"></i>
+            </div>
+            <div class="project-content">
+              <h3>AuraBazaar</h3>
+              <p>
+                An e-commerce platform built using Django, designed to offer a
+                seamless shopping experience. The project includes essential
+                e-commerce features like product browsing, searching, checkout,
+                order tracking, and contact forms.
+              </p>
+              <a
+                href="https://github.com/AtharvaP555/AuraBazaar"
+                target="_blank"
+                rel="noopener"
+                class="project-btn"
+                >View Code</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-icon">
+              <i class="devicon-django-plain"></i>
+            </div>
+            <div class="project-content">
+              <h3>TextUtilities</h3>
+              <p>
+                A simple web-based tool designed to help users perform various
+                text processing operations, such as modifying, analyzing, and
+                formatting text. This project is built using HTML, CSS,
+                JavaScript for the frontend and Python for backend processing.
+              </p>
+              <a
+                href="https://github.com/AtharvaP555/TextUtilities"
+                target="_blank"
+                rel="noopener"
+                class="project-btn"
+                >View Code</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-period">2011 - 2021</div>
+              <h3>
+                Indian Certificate of Secondary Education (ICSE)
+                <i class="fa-solid fa-award separator-icon"></i> 96%
+              </h3>
+              <p>Lilavatibai Podar High School</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-period">2021 - 2023</div>
+              <h3>
+                Higher Secondary Certificate (HSC)
+                <i class="fa-solid fa-award separator-icon"></i> 84%
+              </h3>
+              <p>Pace Junior Science College</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-period">2023 - Present</div>
+              <h3>
+                Bachelor of Technology (B.tech)
+                <i class="fa-solid fa-award separator-icon"></i> CGPA: 9.6
+              </h3>
+              <p>K J Somaiya Institute of Technology</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <ul class="contact-list">
+          <li class="contact-item">
+            <div class="contact-icon">
+              <i class="devicon-google-plain"></i>
+            </div>
+            <a href="mailto:atharvapuranik255gmail.com" class="contact-link"
+              >atharvapuranik255gmail.com</a
+            >
+          </li>
+
+          <li class="contact-item">
+            <div class="contact-icon">
+              <i class="devicon-github-original"></i>
+            </div>
+            <a
+              href="https://github.com/AtharvaP555"
+              target="_blank"
+              class="contact-link"
+              >github.com/AtharvaP555</a
+            >
+          </li>
+
+          <li class="contact-item">
+            <div class="contact-icon">
+              <i class="devicon-linkedin-plain"></i>
+            </div>
+            <a
+              href="https://www.linkedin.com/in/atharva-puranik-228457291/"
+              target="_blank"
+              class="contact-link"
+              >linkedin.com/in/atharva-puranik</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 Atharva Puranik · Built with HTML · CSS · JS</p>
+    </footer>
+  </body>
+</html>
