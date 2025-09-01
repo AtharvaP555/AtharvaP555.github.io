@@ -545,6 +545,7 @@ section,
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
+  justify-items: center;
 }
 
 .project-card {
@@ -557,6 +558,8 @@ section,
   display: flex;
   flex-direction: column;
   height: 100%;
+  max-width: 350px;
+  width: 100%;
 }
 
 .project-card:hover {
@@ -583,6 +586,16 @@ section,
   font-size: 1.5rem;
   margin-bottom: 1rem;
   color: var(--accent-color);
+}
+
+.project-content h3 a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.project-content h3 a:hover {
+  text-decoration: underline;
+  color: var(--accent-hover-color, var(--accent-color));
 }
 
 .project-content p {
@@ -831,5 +844,11 @@ footer {
 
   .skills-grid {
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
   }
 }
